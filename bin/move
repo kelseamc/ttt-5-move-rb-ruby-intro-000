@@ -13,6 +13,6 @@ puts "   |   |   "
 
 input = gets.strip
 index = input_to_index
-move(board, index, value)
+move(board, index, character)
 display_board(board)
 # Code your CLI Here
